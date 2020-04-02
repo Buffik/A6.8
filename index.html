@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
+
+  <title>PWS A6 Progress_Bar</title>
+</head>
+<body>
+  <h1 class="text-center">А вот и полосочка</h1>
+
+  <div class="container" id="container">
+    <div class="progress">
+      <div class="progress-bar bg-success" id="progressbar" role="progressbar" style="width:0%"> <span style="text-align: center; color: red;">Ты можешь стать кем-то больше</span></div>
+    </div>
+    <div class="row">
+      <div class="col text-center mt-3">
+          <button type="button" class="btn btn-dark" onclick="progress(1)">Увеличь прогресс на 1%</button>
+          <button type="button" class="btn btn-dark" onclick="progress(3)">Можно и по-больше: на 3%</button>
+          <button type="button" class="btn btn-dark" onclick="progress(7)">Самая шустрая кнопка: +7%</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="./js/jquery-3.4.1.min.js"></script>
+  <script src="./js/bootstrap.bundle.min.js"></script>
+  <script src="./js/script-a6.js"></script>
+</body>
+</html>
